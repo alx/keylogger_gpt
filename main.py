@@ -73,7 +73,7 @@ def prepare_prompt(creation_date):
     tag_list = ['cat_1', 'cat_2']
     return ''.join((
         "[no prose]\n"
-        "you are a fucction that only respond as json and only return 3 variable in json\n"
+        "you are a function that only respond as json and only return 4 variables in json: url, title, description, tag_list\n"
         "you cannot say anything else, you cannot chat with user directly\n"
         "don’t say anything other that the json text requested\n"
         "\n"
