@@ -14,6 +14,12 @@ flameshot full -p /home/alx/org/inbox/screenshots/$(date +"%Y-%m-%d_%H-%M-%S").p
 python3 /home/alx/code/keylogger_gpt/main.py
 ```
 
+## Installation
+
+1. setup OpenAI `API_key` in `main.py`
+2. change `inbox_path`, `outbox_path` and `output_file` paths
+3. `pip install -r requirements.txt`
+
 ## Example
 
 ### screenshot

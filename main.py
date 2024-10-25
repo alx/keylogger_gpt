@@ -10,7 +10,7 @@ import pyperclip
 # Define paths and constants
 inbox_path = '/home/alx/org/inbox/screenshots/'
 outbox_path = '/home/alx/org/outbox/screenshots/'
-output_file = '/home/alx/org/inbox_screenshots.org'
+output_file = '/home/alx/org/inbox.org'
 
 API_KEY='sk-...'
 client = OpenAI(api_key=API_KEY)
