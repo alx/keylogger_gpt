@@ -18,7 +18,7 @@ python3 /home/alx/code/keylogger_gpt/main.py
 
 ### screenshot
 
-![./assets/2024-10-25_11-26-38.png](screenshot)
+![screenshot](./assets/2024-10-25_11-26-38.png)
 
 ### json
 
