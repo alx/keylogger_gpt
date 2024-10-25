@@ -13,3 +13,34 @@ flameshot full -p /home/alx/org/inbox/screenshots/$(date +"%Y-%m-%d_%H-%M-%S").p
 #   - org-mode item in /home/alx/org/inbox_screenshot.org
 python3 /home/alx/code/keylogger_gpt/main.py
 ```
+
+## Example
+
+### screenshot
+
+![./assets/2024-10-25_11-26-38.png](screenshot)
+
+### json
+
+``` json
+{
+"url": "https://m.imdb.com/title/tt0787524/",
+"title": "The Man Who Knew Infinity (2015) - IMDb",
+"description": "The story of the life and academic career of Srinivasa Ramanujan and his friendship with G.H. Hardy.",
+"tag_list": ["ia", "comp", "book"]
+}
+
+```
+
+### org-mode item
+
+``` org
+** [[https://m.imdb.com/title/tt0787524/][The Man Who Knew Infinity (2015) - IMDb]] :ia:comp:book:
+:PROPERTIES:
+:CREATED: [2024-10-25 Fri 11:26]
+:END:
+
+[[./assets/2024-10-25_11-26-38.png]]
+
+The story of the life and academic career of Srinivasa Ramanujan and his friendship with G.H. Hardy.
+```
